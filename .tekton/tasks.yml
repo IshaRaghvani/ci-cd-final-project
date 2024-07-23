@@ -73,5 +73,6 @@ spec:
       script: |
         #!/bin/sh
         set -e
+        echo "Workspace path for 'source' is: $(workspaces.source.path)"
         echo "Listing files in workspace directory:"
         ls -la
